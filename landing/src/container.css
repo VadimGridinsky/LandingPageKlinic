@@ -1,0 +1,36 @@
+.wrapper__block {
+  width: 100%;
+  max-width: 1322px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.wrapper__block .container__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8vh;
+}
+
+.wrapper__block .container__block p {
+  width: 80%;
+  padding-left: 2vw;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=container.css.map */

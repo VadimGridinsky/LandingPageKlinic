@@ -1,0 +1,85 @@
+$font:  'Quicksand', sans-serif
+
+main
+    display: flex
+    justify-content: center
+    font-family: $font
+    flex-flow: wrap
+    .container
+        width: 100%
+        background: url('../img/desktop-chel.png') no-repeat
+        display: flex
+        justify-content: space-between
+        flex-flow: wrap
+        z-index: 0
+        background-position-x: 13%
+        form
+            border: 2px solid #f9f8f7
+            background: #f9f9f8
+            opacity: 0.9
+            box-shadow: 9px 5px 7px 0px rgba(48, 50, 50, 0.75)
+            .form-container
+                display: flex
+                flex-direction: column
+                input
+                    margin: 10px
+                    border: none
+                    margin: 10px
+                    border: none
+                    border-bottom: 2px solid transparent
+                input:focus
+                    border-bottom: 2px solid yellow
+                    outline: none
+                button
+                    width: 30vw
+                    margin: 10px 10px 20px 10px
+                    padding: 13px
+                    background: #efc500
+                    border: none
+                    color: #000000
+                    font-size: 15px
+                    font-weight: 600
+    .right-side
+
+        ul
+            list-style: none
+            padding: 0
+            li
+                border-bottom: 2px solid #d3d3d2
+            li a
+                text-decoration: none
+                font-size: 25px
+                color: black
+
+            li:hover
+                background-color: #d4d3d2
+                a
+                    color: black
+                    font-weight: 600
+                    padding: 5px
+        .os-container
+            a
+                color: black
+            h1
+                font-size: 41px
+            p
+                font-size: 20px
+            p:first-child
+                text-decoration: underline yellow
+section .wrapper__block .container__block
+    ul
+        list-style: none
+        padding: 0
+        display: none
+        li
+            border-bottom: 2px solid #d3d3d2
+        li a
+            text-decoration: none
+            font-size: 25px
+            color: black
+        li:hover
+            background-color: #d4d3d2
+            a
+                color: black
+                font-weight: 600
+                padding: 5px

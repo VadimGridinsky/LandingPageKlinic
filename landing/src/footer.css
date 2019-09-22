@@ -1,0 +1,40 @@
+footer {
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1322px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+footer .center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer .right {
+  text-align: right;
+}
+
+footer .right p {
+  color: white;
+}
+
+footer .left p {
+  color: #b79700;
+}
+/*# sourceMappingURL=footer.css.map */

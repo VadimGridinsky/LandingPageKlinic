@@ -1,0 +1,118 @@
+
+@import 'header.css';
+@import 'main.css';
+@import 'container.css';
+@import 'wrapper.css';
+@import 'footer.css';
+
+@media screen and (max-width: 700px){
+   header{
+       width: 100%;
+       height: 50vh;
+       display: flex;
+       justify-content: flex-start
+   }
+   header .wrapper{
+       display: flex;
+       flex-flow: wrap;
+       height: 100%;
+       width: 100%;
+       justify-content: flex-end
+   }
+   .container .right-side{
+        order: -1;
+   }
+   .container .right-side ul{
+       display: none;
+   }
+   .container .left-side .black-logo{
+       display: none;
+   }
+   .container .left-side {
+       width: 90%;
+       margin-top: 21px;
+   }
+   .container{
+       font-size: 11px;
+       padding-left: 20px;
+       
+   }
+   .logo{
+       order: -1;
+   }
+   .block1{
+       background: url('../img/logo-white.png') no-repeat;
+       width: 100%;
+       width: 61%;
+       height: 46%;
+       margin: auto;
+       order: -1;
+   }
+   .space{
+       margin-top: 0px;
+       width: 100%;
+   }
+   .flex{
+       width: 100%;
+   }
+   .container__block img{
+       display: none;
+   }
+   .wrapper__block .container__block{
+       margin-top: 1vh;
+       width: 100%;
+       display: flex;
+       flex-flow: wrap;
+       font-size: 15px
+   }
+   .wrapper__block .container__block p{
+       padding-left: 0px;;
+   }
+   main .right-side .os-container h1{
+       font-size: 30px
+   }
+   main .container {
+       background: url("../img/bg-mobile.png") no-repeat;
+   }
+   section .wrapper__block .container__block ul{
+       display: initial;
+   }
+   header .wrapper .phone{
+       width: 81%;
+       display: flex;
+       flex-direction: column
+   }
+   header .wrapper .phone div:nth-child(2) p{
+       margin-left: 20px;
+   }
+   header .wrapper .phone div:nth-child(1) p{
+    margin-left: 20px;
+  }
+  header .wrapper .phone div:nth-child(2){
+      margin-left: 0px;
+  }
+  .wrapper__container-left{
+      width: 100%;
+      margin-right: 0vw;
+  }
+  footer .footer__container{
+      flex-flow: wrap
+  }
+  footer .footer__container .center{
+      order: -1;
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      height: 50px;
+  }
+  footer .footer__container .center a{
+      align-self: center;
+      margin: 10px;
+  }
+  footer .footer__container .left{
+      text-align: center;
+  }
+  footer .footer__container .right{
+      text-align: center;
+  }
+}
